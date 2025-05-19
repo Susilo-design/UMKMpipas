@@ -1,15 +1,15 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
 section {
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    padding: 10rem 14% ;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  padding: 10rem 14%;
 }
 
 body {
@@ -28,10 +28,10 @@ header {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
   text-align: center;
   display: flex;
-  position:fixed;
-  width: 100%   ;
+  position: fixed;
+  width: 100%;
 }
-.logo {
+.waroenk-logo {
   margin: 0 0 8px 0;
   font-size: 2.2rem;
   letter-spacing: 2px;
@@ -65,7 +65,7 @@ header ul a.active {
   color: #ffd166;
 }
 
-.hero {
+.waroenk-hero {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,42 +74,46 @@ header ul a.active {
   max-width: 1000px;
   margin: 0 auto;
 }
-.hero-image img {
+.waroenk-hero-image img,
+.waroenk-img img {
   width: 180px;
   height: 180px;
   object-fit: cover;
   border-radius: 16px;
   background: #e0e0e0;
 }
-.hero-text {
+.waroenk-hero-text {
   max-width: 500px;
 }
-.hero-text h1 {
+.waroenk-hero-text h1 {
   font-size: 2.5rem;
   margin: 0 0 12px 0;
   color: #40916c;
 }
-.hero-text p {
+.waroenk-hero-text p {
   font-size: 1.1rem;
   color: #444;
   margin: 0;
 }
 @media (max-width: 700px) {
-  .hero {
+  .waroenk-hero {
     flex-direction: column;
     gap: 18px;
     padding: 32px 8px 18px 8px;
   }
-  .hero-image img {
+  .waroenk-hero-image img {
     width: 120px;
     height: 120px;
   }
-  header ul {
-    flex-direction: column;
-    gap: 0;
-  }
-  header ul a {
-    padding: 10px 8px;
-    text-align: center;
-  }
+}
+.waroenk-about-content {
+  display: flex;
+  gap: 3rem;
+  font-size: 1.5rem;
+}
+.waroenk-img {
+  
+}
+.waroenk-text {
+ 
 }
