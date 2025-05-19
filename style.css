@@ -117,3 +117,36 @@ header ul a.active {
 .waroenk-text {
  
 }
+
+
+.FT {
+  text-align: center;
+  margin-bottom: 20px;
+    
+  transition: transform 0.3s ease-in-out; 
+}
+
+.FT:hover {
+  transform: translateY(-10px); 
+}
+
+.FT img {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.teks {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 14px;
+  color: #ff5722;
+}
+
